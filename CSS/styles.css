@@ -28,11 +28,12 @@ body{
     width: 100px;
     height: 200px;
     margin: 10px;
-    background-color: orangered;
+    background: rgb(0,36,16);
+    background: linear-gradient(90deg, rgba(0,36,16,1) 0%, rgba(9,121,57,1) 38%, rgba(255,0,249,1) 100%);
 }
 .flex{
     display: flex;
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse; */
     align-items:center;
     justify-content: center;
 }
@@ -44,6 +45,19 @@ body{
 }
 footer{
     background-color: olivedrab;
+}
+.cat{
+    height: 110px;
+    width: 200px;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: forestgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
 }
 
 
